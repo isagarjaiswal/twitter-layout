@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    background-color: #0000009c;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.side-bar {
+    width: 400px;
+    height: 100vh;
+    background-color: gray;
+    overflow: auto;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 900px;
+    height: 100vh;
+    background-color: saddlebrown;
+    overflow-y: auto;
+}
+
+.right {
+    width: 400px;
+    height: 100vh;
+    background-color: salmon;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
